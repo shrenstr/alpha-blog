@@ -7,6 +7,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div>
+    <h1><%= link_to 'Alpha-Blog',  root_path, class: "nav-brand"  %></h1>
+  </div>
   <%= render 'layouts/messages' %>
   <%= yield %>
 
